@@ -6,9 +6,18 @@
 
 var questions = [
     {
-        question: "blank blank placeholder",
-        answers: ["blank", "blanks", "placeholder"],
-        correctAnswer: "blank"
+        question: "Who was the first U.S. president that was born a citizen of the United States?",
+        answers: ["George Bush", "William Howard Taft", "Martin Van Buren"],
+        correctAnswer: "Martin Van Buren"
+    },
+    {
+        question: "Which book holds the record of being the most stolen book from public libraries?",
+        answers: ["The Bible", "The Koran", "Guinness Book of World Records"],
+        correctAnswer: "Guinness Book of World Records"
+    },{
+        question: "Florence Nightingale aided the sick and wounded during which war?",
+        answers: ["Spanish-American War", "Women's March on Washington", "Crimean War"],
+        correctAnswer: "Crimean War"
     },
 ]
 
@@ -46,4 +55,4 @@ var game = {
     }
 }
 
-result function will clear out timer and correct answerrs and incorrect, use jquery
+//result function will clear out timer and correct answerrs and incorrect, use jquery
